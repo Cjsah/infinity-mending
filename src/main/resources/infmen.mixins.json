@@ -4,10 +4,9 @@
   "package": "net.cjsah.infmen",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
     "InfinityEnchantmentMixin"
   ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
