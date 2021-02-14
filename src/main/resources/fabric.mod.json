@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "infinity-mending",
+  "version": "${version}",
+
+  "name": "infinity-mending",
+  "description": "You can add infinity and mending enchant on one bow!",
+  "authors": [
+    "Cjsah"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Cjsah",
+    "sources": "https://github.com/Cjsah/infinity-mending",
+    "issues": "https://github.com/Cjsah/infinity-mending/issues"
+
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/infmen/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "infmen.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
